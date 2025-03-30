@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: red;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  p {
+    font-size: 24px;
+  }
+  
+  /* Pantallas medianas */
+  @media (max-width: 768px) {
+    body {
+      background-color: green;
+    }
+  
+    img {
+      width: 70%;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Pantallas pequeñas */
+  @media (max-width: 425px) {
+    body {
+      background-color: blue;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
